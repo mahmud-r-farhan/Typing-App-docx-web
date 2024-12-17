@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+.app {
+  font-family: Arial, sans-serif;
+}
+
+.hacker-mode {
+  background-color: black;
+  color: #00ff00;
+}
+
+.editor-textarea {
+  width: 100%;
+  height: 80vh;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.toolbar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.toolbar-btn,
+.theme-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.toolbar-select,
+.toolbar-color {
+  padding: 5px;
+  font-size: 16px;
+}
