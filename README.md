@@ -1,6 +1,11 @@
 ﻿
 # DOG Docxs (Typing Web App)
 
+**Check out now**
+```
+https://docxs.netlify.app/
+```
+
 ## Table of Contents
 
 1.  **Overview**
@@ -30,7 +35,7 @@ The Typing Web Application is an interactive text editor that allows users to ty
 -   **Text Styling**:
     
     -   Font size and font family adjustment.
-    -   Text color input for customization.
+    -   Text colour input for customization.
     -   Support for bold, italic, underline, strikethrough, and text alignment.
 -   **Themes**:
     
@@ -112,8 +117,8 @@ Before getting started, ensure you have the following installed:
 1.  Clone the repository:
     
     ```bash
-    git clone https://github.com/your-username/typing-app.git
-    cd typing-app
+    git clone https://github.com/mahmud-r-farhan/Typing-App-docx-web
+    cd Typing-App-docx-web
     
     ```
     
@@ -142,7 +147,7 @@ Once the application is up and running, users can:
 
 1.  **Type Text**: Begin typing directly into the editor. The app provides various formatting options to enhance the text.
 2.  **Customize Text**: Use the toolbar to change the font size, family, and text alignment. Additional styling like bold, italic, and underline is available.
-3.  **Switch Themes**: Toggle between Light, Dark, and Hacker Mode by clicking the theme toggle button.
+3.  **Switch Themes**: Click the theme toggle button to toggle between Light, Dark, and Hacker Mode.
 4.  **Save Content**: After typing, users can download the text as `.txt` or `.docx` files by clicking the download button.
 
 ----------
@@ -158,7 +163,7 @@ Once the application is up and running, users can:
 ### **2. Toolbar.js**:
 
 -   This component provides the UI for adjusting the text style.
--   Includes controls for font size, font family, and text color.
+-   Includes controls for font size, font family, and text colour.
 -   Also has buttons for toggling bold, italic, underline, and text alignment.
 
 ### **3. ThemeToggle.js**:
@@ -174,14 +179,14 @@ SEO is crucial for improving the discoverability of your web app. Here’s how w
 
 1.  **Title and Meta Tags**:
     
-    -   The `Helmet` component from `react-helmet` is used to dynamically set the title and meta description of the app.
+    -   The `Helmet` component from `react-helmet` is used to set the title and meta description of the app dynamically.
     
     Example:
     
     ```jsx
     <Helmet>
       <title>Typing Web App</title>
-      <meta name="description" content="Interactive typing web app with multiple text styling options." />
+      <meta name="description" content=" Interactive typing web app with multiple text styling options." />
     </Helmet>
     
     ```
@@ -211,15 +216,15 @@ SEO is crucial for improving the discoverability of your web app. Here’s how w
 
 -   **Font Size**: Users can select their desired font size from the toolbar.
 -   **Font Family**: The toolbar allows users to choose different font families.
--   **Text Color**: Users can change the text color to their preference.
+-   **Text Color**: Users can change the text colour to their preference.
 -   **Bold, Italic, Underline**: Easily toggle bold, italic, or underline on the selected text.
--   **Text Alignment**: Change the text alignment (left, center, right).
+-   **Text Alignment**: Change the text alignment (left, centre, right).
 
 ----------
 
 ## 11. Future Enhancements
 
--   **Collaborative Editing**: Allow multiple users to type and collaborate in real-time.
+-   **Collaborative Editing**: Allow multiple users to type and collaborate in real time.
 -   **Speech-to-Text**: Add voice input functionality for hands-free typing.
 -   **Cloud Saving**: Save documents to the cloud for access across devices.
 -   **Version Control**: Track document changes and allow for reverting to previous versions.
@@ -240,7 +245,7 @@ We welcome contributions to this project! To contribute:
 
 ## 13. License
 
-This project is licensed under the MIT License - see the [LICENSE](https://chatgpt.com/c/LICENSE) file for details.
+This project is licensed under the MIT License
 
 ----------
 
